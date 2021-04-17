@@ -3,7 +3,7 @@ import asyncio
 from pythonlib.findface import search_face
 import shutil
 import time
-from lib.nn import calculate
+from pythonlib.nn import calculate
 
 async def f():
 	picture = await get_online_person()  # bytes representation of the image
