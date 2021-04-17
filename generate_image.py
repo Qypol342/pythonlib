@@ -1,6 +1,6 @@
 from thispersondoesnotexist import get_online_person,save_picture
 import asyncio
-from lib.findface import search_face
+from pythonlib.findface import search_face
 import shutil
 import time
 from lib.nn import calculate
