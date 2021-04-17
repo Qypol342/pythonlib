@@ -1,5 +1,5 @@
 from thispersondoesnotexist import get_online_person,save_picture
-import asyncio
+#import asyncio
 from pythonlib.findface import search_face
 import shutil
 import time
