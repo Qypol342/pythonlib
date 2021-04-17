@@ -15,7 +15,7 @@ async def f():
 
 
 def gen_im():
-	asyncio.run(f())
+	await f()
 
 	search_face("abp.png")
 	#shutil.copy('images/_faces.png','tmp/'+'intrus'+'_'+str(time.time())+'.png')
